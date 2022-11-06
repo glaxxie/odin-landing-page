@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: column nowrap; */
+    font-family: roboto, Verdana, Arial;
+    align-items: center;
+    
+}
+/* header div */ 
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(101, 14, 14);
+    color: blanchedalmond;
+    gap: 25px;
+}
+.header-top, .header-bot{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 0 15%;
+    margin-bottom: 50px;
+}
+
+ul {
+    flex: 1 1 0;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+/* border for debug */
+/* .main, .logo, .links, .imgage {
+    border: 2px solid rgb(26, 211, 137);
+} */
+.links, .secondary {
+    font-size: 18px;
+}
+.logo, .links, .main, .image {
+    margin: 0;
+    flex: 1;
+}
+.logo {
+    font-size: 24px;
+}
+.intro {
+    font-size: 48px;
+}
+.image {
+    max-width: 600px;
+    height: auto;
+}
+
+
+/* info div */
+.information {
+    text-align: center;
+
+}
+
+#info {
+    font-size: 36px;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+.content {
+    display: flex;
+
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 250px; */
+    align-items: center;
+    padding: 50px;
+    margin: 0px 50px 20px 50px;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+.icons {
+    max-width: 250px;
+}
+
+
+/* quote */
+.quote {
+    text-align: center;
+    padding: 50px 25%;
+    justify-content: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+/* sign up */
+.call {
+    align-self: stretch;
+    flex: 1 1 auto;
+    border: 1px solid brown;
+    border-radius: 20px;
+    background-color: rgb(63, 125, 187);
+    align-items: center;
+    justify-content: center;
+    margin: 25px 25%;
+    padding: 20px;
+    color: white;
+}
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sign-up span{
+    font-weight: bolder;
+}
+.bot-button, .top-button {
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+
+}
+
+
+/* footer div */
+.footer {
+    align-self:stretch;
+    text-align: center;
+    background-color: rgb(101, 14, 14);
+    color: blanchedalmond;
+}
